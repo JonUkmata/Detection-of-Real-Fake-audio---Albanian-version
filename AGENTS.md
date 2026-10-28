@@ -53,7 +53,9 @@ Prioritize learning, clarity, reproducibility, and scientific correctness over i
 
 ## Code Quality
 
-- Use Python 3.11 unless the project configuration changes.
+- Use Python 3.13 as the primary development environment.
+- Python 3.11 remains available as a fallback until
+  all Deep Learning dependencies are verified.
 - Prefer readable code with meaningful variable and function names.
 - Use type hints where appropriate.
 - Avoid unnecessary abstractions.

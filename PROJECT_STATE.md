@@ -1,7 +1,7 @@
 
 # Project State — Albanian Real/Fake Audio Detection
 
-Last Updated: 2026-10-27
+Last Updated: 2026-10-28
 
 ## Project Overview
 
@@ -11,18 +11,27 @@ Deep Learning.
 
 ## Current Phase
 
-Phase 0 — Project Setup & Strategy
+Phase 1 — Dataset Collection & Analysis
+
+Status: Ready to begin.
 
 ## Completed
 
-- GitHub repository created.
-- Repository cloned locally.
-- Initial development strategy discussed.
-- AGENTS.md created.
+- Created and cloned the GitHub repository.
+- Established AGENTS.md and the documentation workflow.
+- Created a separate personal thesis development journal.
+- Configured Python 3.13.7 using .venv313.
+- Configured .gitignore and requirements.txt.
+- Installed and verified Librosa 1.0.0.
+- Installed and verified PyTorch 2.14.1+cpu.
+- Verified dependencies using pip check.
+- Completed and pushed the initial setup commits.
+
+
 
 ## Technology Stack (Planned)
 
-- Python 3.11
+- Python 3.13
 - PyTorch
 - Librosa / Torchaudio
 - Pandas / NumPy
@@ -33,24 +42,30 @@ Phase 0 — Project Setup & Strategy
 
 ## Key Decisions
 
-- Develop the system before writing the final thesis.
-- Maintain personal development notes throughout the project.
-- Use incremental Git commits.
-- Use Codex as a coding assistant, not an autonomous decision-maker.
-- Prioritize understanding and scientific correctness.
-- Keep a reproducible record of experiments.
+- Python 3.13.7 selected as the primary development environment.
+- Python 3.11 retained as a fallback.
+- PyTorch 2.14.1+cpu verified for basic CPU operations.
+- Local NVIDIA GPU support has not been validated.
+- Google Colab GPU is the proposed training environment
+  for computationally expensive experiments.
+- Maintain shared model and preprocessing code between
+  local development and Google Colab.
+- Save trained model checkpoints for local inference.
+
+
 
 ## Current Task
 
-Set up project documentation and development environment.
+Design the initial dataset workflow and establish the
+source code structure for audio data exploration.
 
 ## Next Steps
 
-1. Create PROJECT_STATE.md.
-2. Set up personal thesis notes.
-3. Initialize the Python environment.
-4. Establish the initial project structure.
-5. Begin dataset exploration.
+1. Define the dataset sources and initial collection strategy.
+2. Create the initial project folder structure.
+3. Implement audio loading and metadata validation.
+4. Perform exploratory data analysis.
+5. Design speaker-independent, leakage-safe dataset splits.
 
 ## Open Questions
 

@@ -1,0 +1,42 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+.venv313/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+
+# Experiment tracking artifacts
+runs/
+wandb/
+mlruns/
