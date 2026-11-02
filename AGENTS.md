@@ -57,6 +57,7 @@ Prioritize learning, clarity, reproducibility, and scientific correctness over i
 - Python 3.11 remains available as a fallback until
   all Deep Learning dependencies are verified.
 - Prefer readable code with meaningful variable and function names.
+- Prefer simple, academically explainable code; retain necessary scientific validation.
 - Use type hints where appropriate.
 - Avoid unnecessary abstractions.
 - Use clear error handling.

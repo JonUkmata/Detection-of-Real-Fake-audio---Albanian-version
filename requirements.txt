@@ -8,3 +8,10 @@ soundfile==0.14.0
 
 # Deep Learning - CPU development environment
 torch==2.14.1
+
+# Dataset exploration notebooks and verification
+matplotlib==3.10.7
+ipykernel==7.4.0
+ipython==9.18.1
+nbformat==5.11.1
+jupyter-client==8.10.0
