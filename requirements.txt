@@ -15,3 +15,12 @@ ipykernel==7.4.0
 ipython==9.18.1
 nbformat==5.11.1
 jupyter-client==8.10.0
+
+# MMS-TTS CPU pilot
+transformers==4.57.6
+huggingface_hub==0.36.0
+tokenizers==0.22.2
+safetensors==0.7.0
+PyYAML==6.0.3
+regex==2025.11.3
+tqdm==4.67.1

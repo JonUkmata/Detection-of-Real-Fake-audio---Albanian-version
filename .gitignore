@@ -31,6 +31,9 @@ data/raw/
 data/interim/
 data/processed/
 
+# Local environment inventories and resolver reports may contain machine paths
+reports/environment/
+
 # Model checkpoints and weights
 *.pt
 *.pth
